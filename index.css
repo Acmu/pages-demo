@@ -1,0 +1,32 @@
+head,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #f4f5f5;
+}
+
+header,
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  margin-top: 70px;
+}
+
+.head,
+.list-wrapper {
+  margin-top: 20px;
+  width: 800px;
+  padding: 20px 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  height: 100px;
+}
