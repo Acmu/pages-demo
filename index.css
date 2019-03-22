@@ -27,6 +27,22 @@ header {
   box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.19);
 }
 
+@media (max-width: 767px) {
+  .head,
+  .list-wrapper {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .head,
+  .list-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .img {
   text-align: center;
   margin-top: -109px;
